@@ -1,0 +1,17 @@
+<div class="visualizacao">
+    <div class="menu">
+            <p [routerLink]="['/acessorios']" routerLinkActive="active">Acessórios</p>
+            <p [routerLink]="['/blusas']" routerLinkActive="active">Blusas</p>
+            <p [routerLink]="['/lingeries']" routerLinkActive="active">Lingeries</p>
+            <p [routerLink]="['/macacoes']" routerLinkActive="active">Macacões</p>            
+            <p [routerLink]="['/moda-praia']" routerLinkActive="active">Moda Praia</p>
+            <p [routerLink]="['/pijamas']" routerLinkActive="active">Pijamas</p>
+            <p [routerLink]="['/produtos-de-beleza']" routerLinkActive="active">Produtos de Beleza</p>
+            <p [routerLink]="['/saias']" routerLinkActive="active">Saias</p>
+            <p [routerLink]="['/tops']" routerLinkActive="active">Tops</p>
+            <p [routerLink]="['/vestidos']" routerLinkActive="active">Vestidos</p>
+    </div>
+    <div class="produtos">
+        <router-outlet></router-outlet>
+    </div>
+</div>

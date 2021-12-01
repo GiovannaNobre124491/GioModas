@@ -1,0 +1,39 @@
+.breadcrumb{
+    border-radius: 10px;
+    padding: 5px 30px;
+    background-color: #fff;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+.container{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.produtos img {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.texto{
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+}
+.texto p{
+    background-color: #fff;
+    border: 2px #fce3fc solid;
+    border-radius: 5px;
+}
+.produtos{
+    border: 0;
+    background-color:#e28ac0 ;
+    justify-content: space-evenly;
+    margin: 20px;
+    height: 280px;
+    width: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
